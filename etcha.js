@@ -16,6 +16,14 @@ function makeRows(rows, cols) {
   };
 };
 makeRows(16, 16);
+let cuadricula= document.querySelector('.cuadricula')
+function eraseGrid(){
+  container.innerHTML= ''
+  makeRows(16,16)
+  
+}
 
-
- 
+let remove= document.getElementById('remove')
+remove.addEventListener('click', () => {
+  eraseGrid()
+})
