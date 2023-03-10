@@ -1,0 +1,26 @@
+
+
+body{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(30, 190, 196);
+    
+}
+  #container {
+    
+    
+    display: grid;
+    grid-gap: 0em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .cuadricula {
+    
+    padding: 1em;
+    border: 1px solid #ddd;
+  
+    background-color: rgb(201, 29, 29);
+  }
